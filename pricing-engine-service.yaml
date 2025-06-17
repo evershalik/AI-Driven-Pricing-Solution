@@ -1,0 +1,11 @@
+endpoints:
+  - POST /pricing/calculate
+  - POST /pricing/optimize-bundle
+  - GET /pricing/recommendations/{customer_id}
+  - POST /pricing/ab-test
+  
+capabilities:
+  - Real-time price calculation (< 100ms response)
+  - Dynamic pricing rules engine
+  - Multi-dimensional pricing optimization
+  - A/B testing framework
